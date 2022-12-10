@@ -1,0 +1,49 @@
+/nix/store/bm7jr70d9ghn5cczb3q0w90apsm05p54-bash-5.1-p8/bin/sh: line 1: SV#8639.lua: command not found
+
+Uncaught exception:
+
+[string "bundle:deps/require.lua"]:279: No such module '/home/runner/obfuscator/obfuscated/.Edy.' in 'bundle:/main.lua'
+
+module '/home/runner/obfuscator/obfuscated/.Edy.' not found:
+
+	no field package.preload['/home/runner/obfuscator/obfuscated/.Edy.']	no file './/home/runner/obfuscator/obfuscated//Edy/.lua'
+
+	no file '/usr/local/share/luajit-2.1.0-beta3//home/runner/obfuscator/obfuscated//Edy/.lua'
+
+	no file '/usr/local/share/lua/5.1//home/runner/obfuscator/obfuscated//Edy/.lua'
+
+	no file '/usr/local/share/lua/5.1//home/runner/obfuscator/obfuscated//Edy//init.lua'
+
+	no file './/home/runner/obfuscator/obfuscated//Edy/.so'
+
+	no file '/usr/local/lib/lua/5.1//home/runner/obfuscator/obfuscated//Edy/.so'
+
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+
+	no file './/home/runner/obfuscator/obfuscated/.so'
+
+	no file '/usr/local/lib/lua/5.1//home/runner/obfuscator/obfuscated/.so'
+
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+
+stack traceback:
+
+	[C]: in function 'error'
+
+	[string "bundle:deps/require.lua"]:279: in function 'require'
+
+	[string "bundle:/main.lua"]:128: in function <[string "bundle:/main.lua"]:20>
+
+stack traceback:
+
+	[C]: in function 'error'
+
+	[string "bundle:/deps/utils.lua"]:41: in function 'assertResume'
+
+	[string "bundle:/init.lua"]:52: in function <[string "bundle:/init.lua"]:47>
+
+	[C]: in function 'xpcall'
+
+	[string "bundle:/init.lua"]:47: in function 'fn'
+
+	[string "bundle:deps/require.lua"]:310: in function <[string "bundle:deps/require.lua"]:266>
